@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Cantata One', serif;
+    background-color: white;
+  
+    
+   
+}
+/* index.html "About" */ 
+
+ .my-name { 
+    background-color: aqua;
+}
+
+.jumbotron{
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.page-header{
+    color: rgb(86, 184, 184);
+    font-weight: 800px;
+}
+h1 {
+  padding-left: 30px;
+}
+.container {
+     padding: 25px; 
+     color: aqua;
+     background-color: white;
+}
+.img-responsive {
+    /* width: auto;
+    height: auto;
+    display: block; */
+     width: 100%;
+} 
+.text-justify {
+    float: left;
+    padding-right: 20px;
+}
+/* Portfolio.html starts here!!! */
+
+.col-md-4 {
+    padding: 20px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer p{
+    text-align: center;
+
+}
+@media (max-width: 768px){
+    .img-responsive {
+        max-width: 100%;
+        /* min-width: 450px; */
+        /* width: 95vw; */
+       
+        }
+    
+}
